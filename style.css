@@ -1,0 +1,152 @@
+/* style.css */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #2C3E50;
+    color: white;
+    padding: 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar h1 {
+    font-size: 30px;
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    background-image: url('alishan-hero.jpg');
+    background-size: cover;
+    color: darkblue;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h2 {
+    font-size: 40px;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 18px;
+}
+
+.scenic-section {
+    background-color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.scenic-section h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: #2C3E50;
+}
+
+.spot {
+    margin-bottom: 40px;
+}
+
+.spot h3 {
+    font-size: 24px;
+    color: #34495E;
+}
+
+.spot p {
+    color: #7F8C8D;
+    font-size: 16px;
+}
+
+.gallery {
+    background-color: #ECF0F1;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.image-gallery {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.image-gallery img {
+    width: 30%;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact {
+    background-color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+form {
+    display: block;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #BDC3C7;
+    border-radius: 4px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #2C3E50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #34495E;
+}
+
+footer {
+    background-color: #2C3E50;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+footer p {
+    margin: 0;
+}
